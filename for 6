@@ -1,0 +1,9 @@
+value = 65
+inc = 1
+for i in range(0, 5):
+    for j in range(0, inc):
+        ch = chr(value)
+        print(ch, end=" ")
+        value = value + 1
+    inc = inc + 2
+    print()

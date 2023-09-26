@@ -1,0 +1,7 @@
+mylist = ['pine apple', 'mango,apple','banana','orange']
+index=0
+element=[]
+while index < len(mylist):
+    element= mylist[index]
+    print(len(element))
+    index += 1
